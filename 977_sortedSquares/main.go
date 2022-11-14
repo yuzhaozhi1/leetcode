@@ -15,7 +15,6 @@ func sortedSquares(nums []int) []int {
 			j--
 		}
 		k--
-
 	}
 	return tmp
 }
