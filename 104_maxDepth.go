@@ -34,7 +34,7 @@ func maxDepth(root *TreeNode) int {
 	return res
 }
 
-func main() {
+func main1() {
 	root := &TreeNode{
 		Val: 3,
 		Left: &TreeNode{
