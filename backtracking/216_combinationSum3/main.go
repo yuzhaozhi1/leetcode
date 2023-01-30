@@ -22,7 +22,7 @@ func dfs(k, n, start, sum int) {
 		return
 	}
 
-	for i := start; i <= 9 && i < n-(k-len(path))+1; i++ {
+	for i := start; i <= 9 && i < 9-(k-len(path))+1; i++ {
 		path = append(path, i)
 		dfs(k, n, i+1, sum+i)
 		path = path[:len(path)-1]
